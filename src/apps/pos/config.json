@@ -1,0 +1,152 @@
+{
+  "server_url":"",
+  "server_url_report":"",
+  "print_service_url":"http://localhost:8989/web-print",
+  "id_app":"",
+  "group_id":"",
+  "public_token":"",
+  "currency":"VND",
+  "app_title":"Fos",
+  "app_name":"Fos",
+  "app_name_en":"Fos",
+  "sologan_en":"",
+  "sologan":"",
+  "app_description":"",
+  "app_address":"",
+  "app_phone":"",
+  "app_email":"",
+  "app_logo":"/images/icon.png",
+  "app_keywords":"",
+  "app_code":"POS",
+  "system_code":"POS",
+  "app_url":"",
+  "facebook_app_id":"",
+  "facebook_page_id":"",
+  "facebook_greeting":"",
+  "google_app_id":"",
+  "GOOGLE_MAPS_APIKEY":"",
+  "GOOGLE_RECAPTCHA_SITE_KEY":"6LfC5rAUAAAAAASnfRem8Q0Ame4KccFp0b9Twa8N",
+  "GOOGLE_ANALYTICS_ID":"",
+  "vapidPublicKey":"BAmmz2zFsUiv-Ys-pc6qWuvnvuV20fFl5M2BzCv3tCGjvXJmljwWNgYYYZdR4YjbAmCQssGR-sbJTMbuosHZrCg",
+  "iosAppLink":"",
+  "androidAppLink":"",
+  "use_ssl":true,
+  "mainTextColor":"#fff",
+  "primaryColor":"#013659",
+  "secondaryColor":"#592401",
+  "USE_BLOCKCHAIN":false,
+  "USE_CART":false,
+  "redirect_after_signout":"/",
+  "USE_HASH_ROUTER":true,
+  "printPageWidth":302,
+  "showChatIcon":false,
+  "closeDrawWhenClickAway":true,
+  "id_app_dynamic":true,
+  "menu":[
+    {
+      "code":"banhang",
+      "title":"Bán hàng",
+      "path":"/banhang",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"bepmonitor",
+      "title":"Màn hình bếp",
+      "path":"/kitchen-monitor",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"bartendermonitor",
+      "title":"Màn hình bartender",
+      "path":"/bartender-monitor",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"dkhoc",
+      "title":"Đăng ký học",
+      "path":"/list/dkhoc",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"giaoca",
+      "title":"Giao ca",
+      "path":"/list/giaoca",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"pbl",
+      "title":"Bảng kê phiếu bán hàng",
+      "path":"/voucher/pbl",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"dmdt",
+      "title":"Danh sách khoá học",
+      "path":"/list/dmdt",
+      "group":"Bán hàng",
+      "horizontal":true
+    },
+    {
+      "code":"dmkho",
+      "title":"Khai báo cửa hàng",
+      "path":"/list/dmkho",
+      "group":"Cài đặt",
+      "horizontal":true
+    },
+    {
+      "code":"dmnvt",
+      "title":"Khai báo sản phẩm",
+      "path":"/list/dmnvt",
+      "group":"Cài đặt",
+      "horizontal":true
+    },
+    {
+      "code":"customer",
+      "title":"Khai báo khách hàng",
+      "path":"/list/customer",
+      "group":"Cài đặt",
+      "horizontal":true
+    },
+    {
+      "code":"note",
+      "title":"Khai báo ghi chú",
+      "path":"/list/note?id_link=PBL",
+      "group":"Cài đặt",
+      "horizontal":true
+    },
+    {
+      "code":"file",
+      "title":"Quản lý file",
+      "path":"/list/file",
+      "group":"Cài đặt",
+      "visible":false
+    },
+    {
+      "code":"usergroup",
+      "title":"Quản lý nhóm người dùng",
+      "path":"/list/usergroup",
+      "group":"Cài đặt"
+    },
+    {
+      "code":"participant",
+      "title":"Quản lý người dùng",
+      "path":"/list/participant",
+      "group":"Cài đặt",
+      "visible":false
+    },
+    {
+      "code":"appinfo",
+      "title":"Thông tin về công ty",
+      "rights":["view"],
+      "path":"/system/appinfo",
+      "group":"Cài đặt",
+      "horizontal":true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "node" : true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Schema":"readonly",
+        "mongoose":"readonly",
+        "endpoint":"readonly",
+        "grecaptcha":"readonly",
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "FB":"readonly",
+        "chrome":"readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
+}
