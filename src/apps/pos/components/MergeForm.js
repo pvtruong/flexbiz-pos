@@ -24,7 +24,7 @@ class Form extends Component{
     this.ban_hien_tai = ma_ban;
     this.context.setProgressStatus(true);
     try{
-        let tables = (await this.context.apis.asyncGetList(this.context.userInfo.token,"dmban",{condition:{ma_kho:ma_kho.toUpperCase()}})).filter(r=>r.trang_thai==="1");
+        let tables = (await this.context.apis.asyncGetList(this.context.userInfo.token,"dmban",{limit:5000,condition:{ma_kho:ma_kho.toUpperCase()}})).filter(r=>r.trang_thai==="1");
         (tables.find(t=>t.ma_ban.toUpperCase()===ma_ban.toUpperCase())||{}).sel=true;
         this.context.setProgressStatus(false);
         this.setState({open:true,tables:tables});
